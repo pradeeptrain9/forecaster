@@ -16,8 +16,8 @@ uploaded_file2 = st.file_uploader("Upload Transactional Data File 2", type="csv"
 
 # Data preprocessing (simplified)
     # Read transactional data
-df1 = pd.read_csv('/Users/pradeepkonda/Downloads/Transactional_data_retail_02.csv')
-df2 = pd.read_csv('/Users/pradeepkonda/Downloads/Transactional_data_retail_01.csv')
+df1 = pd.read_csv('Transactional_data_retail_02.csv')
+df2 = pd.read_csv('Transactional_data_retail_01.csv')
 df = pd.concat([df1, df2])
 
     # EDA: Summary statistics and top 10 products
